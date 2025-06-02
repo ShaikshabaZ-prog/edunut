@@ -1,0 +1,9 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+body h{
+    size: 25px;
+    font-weight: bolder;
+    color: crimson;
+}
