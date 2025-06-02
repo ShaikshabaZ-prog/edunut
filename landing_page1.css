@@ -1,0 +1,55 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav_link{
+   display: flex;
+}
+.link{
+   margin: 25px;
+   background-color: rgb(105, 203, 60);
+   border-radius: 10px;
+   padding: 10px;
+}
+.link :hover{
+    padding: 15px;
+    box-shadow: 5px;
+}
+#home{
+    background-image: url(https://www.shutterstock.com/image-photo/create-image-modern-sleek-1-260nw-2514495511.jpg);
+    background-size: cover;
+    height: 600px;
+}
+#home h1{
+    color: tomato;
+    font-style: italic;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+#register{
+    text-align: center;
+}
+body{
+   background-color: rgb(48, 135, 207);
+}
+#username{
+    background-color: bisque;
+    border-radius: 5px;
+}
+#email{
+    background-color: bisque;
+    border-radius: 5px;
+}
+#password{
+    background-color: bisque;
+    border-radius: 5px;
+}
+#about{
+    background-color: aqua;
+}
