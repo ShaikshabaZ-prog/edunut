@@ -1,0 +1,13 @@
+.cal{
+    background-color: beige;
+    justify-items: center;
+    height: 250pxpx;
+}
+.cal div{
+    background-color: burlywood;  
+    border-radius: 7px;
+    text-align: center;
+}
+h1{
+color: tomato;
+}
