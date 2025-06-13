@@ -15,7 +15,10 @@ const Calculator=()=>{
             <div>
             <h1>Calculator</h1>
             <input type="number" value={num1} placeholder="firstnumber" onChange={(e)=>setnum1(e.target.value)}/>
-            <input type="number" value={num2} placeholder="secondnumber" onChange={(e)=>setnum2(e.target.value)}/><br/>
+            <input type="number" value={num2} placeholder="secondnumber" onChange={(e)=>{setnum2(e.target.value)
+                console.log(e)
+            }}/><br/>
+        
             <button onClick={add}>+</button>
             <button onClick={sub}>-</button>
             <button onClick={mul}>*</button>
