@@ -1,9 +1,13 @@
-body{
-    background-color: bisque;
+.cal{
+    background-color: beige;
+    justify-items: center;
+    height: 250pxpx;
+}
+.cal div{
+    background-color: burlywood;  
+    border-radius: 7px;
     text-align: center;
 }
-body h{
-    size: 25px;
-    font-weight: bolder;
-    color: crimson;
+h1{
+color: tomato;
 }
