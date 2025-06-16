@@ -26,9 +26,9 @@ const WomenProducts = () => {
     if (error) return <p>{error}</p>;
 
     return (
-        <div>
+        <div className='product-list'>
             <h2>Women's Clothing</h2>
-            <div className='.product-grid'>
+            <div className='product-grid'>
                 {womenClothing.map(product => (
                     <div key={product.id} className="product-card">
                         <img src={product.image} alt={product.title} />
